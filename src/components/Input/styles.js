@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const InputContainer = styled.div`
+    background: transparent;
+    border: 1px solid #FAFAFA;
+    border-radius: 20px;
+
     height: 62px;
     width: 80%;
 
@@ -8,12 +12,15 @@ export const InputContainer = styled.div`
 
     input {
         background: transparent;
-        border: 1px solid #FAFAFA;
+        outline: 0;
         border-radius: 20px;
-        width: 100%;
+
         height: 62px;
+        width: 80%;
+
         padding: 0 20px;
+
         color: #FFFFFF;
-        font-size: 20px
+        font-size: 24px
     }
 `
